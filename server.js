@@ -53,6 +53,15 @@ const DEFAULT_PRESETS = [
     description: 'クセがすごい爆笑トーク＆漫才'
   },
   {
+    id: 'soshina',
+    name: '粗品',
+    query: '粗品 霜降り明星 公式 フリップ 漫才 爆笑',
+    category: 'お笑い',
+    icon: '⚡',
+    color: 'from-indigo-500 to-purple-600',
+    description: '鋭いツッコミと痛快フリップネタ'
+  },
+  {
     id: 'knights',
     name: 'ナイツ',
     query: 'ナイツ 漫才 ヤホー ヤホー漫才',

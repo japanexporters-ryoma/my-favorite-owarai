@@ -3,6 +3,8 @@ import { X, Plus, Sparkles, Smile } from 'lucide-react';
 
 const SUGGESTIONS = [
   { name: '志村けん', query: '志村けん コント バカ殿 だいじょうぶだぁ', icon: '👘' },
+  { name: '霜降り明星', query: '霜降り明星 漫才 コント 爆笑', icon: '🎤' },
+  { name: '粗品 ツッコミ', query: '粗品 フリップ ネタ ツッコミ 名作', icon: '⚡' },
   { name: '明石家さんま', query: '明石家さんま トーク 爆笑', icon: '😄' },
   { name: '綾小路きみまろ', query: '綾小路きみまろ 漫談 爆笑ライブ', icon: '扇' },
   { name: '男はつらいよ・寅さん', query: '男はつらいよ 寅さん 名場面 渥美清', icon: '🍶' },
