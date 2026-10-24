@@ -1,11 +1,11 @@
 services:
   - type: web
     name: otousan-owarai
-    env: node
+    runtime: node
     plan: free
-    region: singapore
-    buildCommand: npm install && cd client && npm install && npm run build
-    startCommand: node server.js
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production

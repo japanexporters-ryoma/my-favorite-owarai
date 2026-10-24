@@ -19,6 +19,9 @@
   ],
   "author": "Ryoma Yamanao",
   "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
