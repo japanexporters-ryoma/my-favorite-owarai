@@ -3,7 +3,7 @@ services:
     name: otousan-owarai
     runtime: node
     plan: free
-    region: oregon
+    region: singapore
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
