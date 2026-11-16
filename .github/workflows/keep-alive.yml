@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Ping Render Service
         run: |
-          curl -sS --max-time 60 https://otousan-owarai.onrender.com/api/ping || true
+          curl -sS --max-time 60 https://otousan-owarai.onrender.com/api/presets || true
