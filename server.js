@@ -135,6 +135,11 @@ const DEFAULT_PRESETS = [
   }
 ];
 
+// 死活監視・スリープ防止用 Ping API
+app.get('/api/ping', (req, res) => {
+  res.json({ status: 'ok', time: new Date().toISOString() });
+});
+
 // プリセット取得API
 app.get('/api/presets', (req, res) => {
   res.json({ presets: DEFAULT_PRESETS });
